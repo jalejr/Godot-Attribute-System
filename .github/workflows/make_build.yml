@@ -75,7 +75,7 @@ jobs:
         if: ${{ matrix.target.platform == 'windows' }}
         shell: pwsh
         run: |
-          Remove-Item project/addons/tag_system/bin/* -Include *.exp,*.lib,*.pdb -Force
+          Remove-Item project/addons/attribute_system/bin/* -Include *.exp,*.lib,*.pdb -Force
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
