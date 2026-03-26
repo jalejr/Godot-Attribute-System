@@ -2,6 +2,9 @@
 	path = godot-cpp
 	url = https://github.com/godotengine/godot-cpp.git
 	branch = 4.3
-[submodule "Godot-Tag-System"]
-	path = Godot-Tag-System
-	url = https://github.com/jalejr/Godot-Tag-System
+[submodule "attribute-system-src"]
+	path = attribute-system-src
+	url = https://github.com/jalejr/attribute-system-src
+[submodule "tag-system-src"]
+	path = tag-system-src
+	url = https://github.com/jalejr/tag-system-src
