@@ -115,7 +115,7 @@ jobs:
       - name: Create addon zip
         run: |
           cd project
-          zip -r ../attribute_system_addon.zip addons/attribute_system/
+          zip -r ../attribute_system_addon.zip addons/attribute_system/ addons/tag_system/
 
       - name: Upload addon zip as artifact
         uses: actions/upload-artifact@v4
